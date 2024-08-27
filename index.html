@@ -3,12 +3,12 @@
 	<head>
 		<title>Affilians Estúdio</title>
 		<meta charset="utf-8" />
-		<script src="./htmx.min.js" integrity="sha384-Y7hw+L/jvKeWIRRkqWYfPcvVxHzVzn5REgzbawhxAuQGwX1XWe70vji+VSeHOThJ"></script>
+		<script src="./deps/htmx.min.js" integrity="sha384-Y7hw+L/jvKeWIRRkqWYfPcvVxHzVzn5REgzbawhxAuQGwX1XWe70vji+VSeHOThJ"></script>
 		<link rel="icon" type="image/x-icon" href="./favicon.ico">
-		<link href="./output.css" rel="stylesheet">
+		<link href="./deps/output.css" rel="stylesheet">
 	</head>
 	<body>
-		<nav hx-get="/navbar" hx-trigger="load" hx-swap="outerHTML"></nav>
+		<nav hx-get="/content/navbar" hx-trigger="load" hx-swap="outerHTML"></nav>
 		<div id="body_content"></div>
 	</body>
 </html>
