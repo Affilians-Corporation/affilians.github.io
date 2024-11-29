@@ -4,7 +4,7 @@ const { ccclass, property } = _decorator;
 
 @ccclass('network_manager')
 export class network_manager extends Component {
-    @property hostname = "192.168.1.11";
+    @property hostname = "20.64.226.102";
     @property port = 2567;
     @property useSSL = false;
 
