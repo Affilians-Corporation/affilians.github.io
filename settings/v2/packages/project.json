@@ -1,0 +1,10 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "fitHeight": true,
+      "fitWidth": true
+    },
+    "renderPipeline": "5d45ba66-829a-46d3-948e-2ed3fa7ee421"
+  }
+}

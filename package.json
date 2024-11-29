@@ -1,0 +1,10 @@
+{
+  "name": "Luccas",
+  "uuid": "b98a4abe-5091-4651-93a1-e1087c1002d2",
+  "creator": {
+    "version": "3.8.3"
+  },
+  "dependencies": {
+    "create-colyseus-app": "^0.15.17"
+  }
+}
