@@ -23,8 +23,10 @@ var Example = /** @class */ (function (_super) {
     }
     Example.prototype.preload = function () {
         this.load.setBaseURL("https://affilians.com.br/chronoriot");
+        this.load.image("zombie", "../res/zombie.webp");
     };
     Example.prototype.create = function () {
+        this.add.image(400, 300, "zombie");
     };
     return Example;
 }(phaser_1.Scene));

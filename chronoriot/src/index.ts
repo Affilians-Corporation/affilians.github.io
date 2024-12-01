@@ -2,10 +2,14 @@ import { Scene, Types } from "phaser"
 class Example extends Scene {
     preload () {
         this.load.setBaseURL("https://affilians.com.br/chronoriot")
+
+        this.load.image("zombie", "../res/zombie.webp");
     }
 
     create () {
+        this.add.image(400, 300, "zombie")
 
+        
     }
 }
 
