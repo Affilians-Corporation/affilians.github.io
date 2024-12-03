@@ -6,12 +6,12 @@ class Example extends Phaser.Scene {
 
 const config = {
     type: Phaser.AUTO,
-    width: 800,
-    height: 600,
     scene: Example,
     scale: {
         mode: Phaser.Scale.FIT,
-        autoCente: Phaser.Scale.CENTER_BOTH
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+        width: window.innerWidth,
+        height: window.innerHeight
     },
     physics: {
         default: "arcade",
