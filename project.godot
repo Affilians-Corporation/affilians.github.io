@@ -1,0 +1,40 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="ChronoRiot"
+config/description="A 2D platformer game based both on Brawhalla and Soccer"
+config/version="0.1..0"
+run/main_scene="res://scenes/initialize.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[debug]
+
+settings/stdout/print_fps=true
+
+[display]
+
+window/size/mode=4
+window/size/borderless=true
+
+[physics]
+
+2d/run_on_separate_thread=true
+2d/physics_engine="Rapier2D"
+common/physics_interpolation=true
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+driver/threads/thread_model=2
+occlusion_culling/use_occlusion_culling=true
