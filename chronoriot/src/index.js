@@ -1,24 +1,17 @@
 const Phaser = require("phaser")
-const Scene = Phaser.Scene
-const Scale = Phaser.Scale
-
-class Example extends Scene {
-    preload() {
-        this.scale.startFullscreen()
-    }
-
-    create() {
-        
-    }
-}
+const Initialize = require("./scenes/initialize")
+const MainMenu = require("./scenes/main_menu")
 
 const config = {
-    type: Phaser.AUTO,
-    scene: Example,
+    type: Phaser.WEBGL,
+    parent: "game-container",
+    scene: [
+        Initialize.Initialize,
+        MainMenu.MainMenu
+    ],
     scale: {
-        parent: "game-container",
-        mode: Scale.FIT,
-        autoCenter: Scale.CENTER_BOTH,
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
         width: window.innerWidth,
         height: window.innerHeight
     },
