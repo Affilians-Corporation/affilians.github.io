@@ -1,8 +1,14 @@
-class Example extends Phaser.Scene {
-    preload() {}
+const Phaser = require("phaser")
+const Scene = Phaser.Scene
+const Scale = Phaser.Scale
+
+class Example extends Scene {
+    preload() {
+        this.scale.startFullscreen()
+    }
 
     create() {
-        this.scale.startFullscreen();
+        
     }
 }
 
@@ -11,8 +17,8 @@ const config = {
     scene: Example,
     scale: {
         parent: "game-container",
-        mode: Phaser.Scale.FIT,
-        autoCenter: Phaser.Scale.CENTER_BOTH,
+        mode: Scale.FIT,
+        autoCenter: Scale.CENTER_BOTH,
         width: window.innerWidth,
         height: window.innerHeight
     },
