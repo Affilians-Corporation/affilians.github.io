@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1733412392|32121381';
+const CACHE_VERSION = '1733412508|148262833';
 /** @type {string} */
 const CACHE_PREFIX = 'ChronoRiot-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
