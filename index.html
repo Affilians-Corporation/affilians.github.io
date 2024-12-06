@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Affilians Estúdios</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:site_name" content="Affilians Estúdios" />
+        <meta property="og:title" content="Estúdio de jogos indie brasileiro" />
+        <meta property="description" content="Divirta-se sem live services, pay to win anúncios de qualquer lugar pela web ou smartphone e com uma comunidade de desenvolvedores abertos a sugestões do público." />
+        <meta name="robots" content="index, follow" />
+        <script src="src/htmx.min.js"></script>
+        <script src="src/index.js" defer></script>
+        <link rel="stylesheet" href="res/index.css" />
+    </head>
+    <body class="bg-secondary">
+        <div class="grid grid-cols-6 grid-rows-11 h-lvh bg-secondary">
+            <nav class="bg-gradient-to-b from-primary from-80% 
+                        col-span-6 row-span-12 grid
+                        grid-cols-12 grid-rows-12" id="navbar" hx-trigger="load" hx-swap="innerHTML" hx-get="/components/navbar.html"></nav>
+        </div>
+        <div class="mt-30 flex flex-row" id="contet" hx-trigger="load" hx-swap="innerHTML" hx-get="/components/content.html"></div>
+    </body>
+</html>
