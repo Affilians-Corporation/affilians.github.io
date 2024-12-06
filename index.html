@@ -13,11 +13,13 @@
         <link rel="stylesheet" href="res/index.css" />
     </head>
     <body class="bg-secondary">
-        <div class="grid grid-cols-6 grid-rows-11 h-lvh bg-secondary">
-            <nav class="bg-gradient-to-b from-primary from-80% 
-                        col-span-6 row-span-12 grid
-                        grid-cols-12 grid-rows-12" id="navbar" hx-trigger="load" hx-swap="innerHTML" hx-get="/components/navbar.html"></nav>
+        <div id="page">
+            <div class="grid grid-cols-6 grid-rows-11 h-lvh bg-secondary">
+                <nav class="bg-gradient-to-b from-primary from-80% 
+                            col-span-6 row-span-12 grid
+                            grid-cols-12 grid-rows-12" id="navbar" hx-trigger="load" hx-swap="innerHTML" hx-get="/components/navbar.html"></nav>
+            </div>
+            <div class="mt-30 grid grid-cols-12 grid-rows-12" id="content" hx-trigger="load" hx-swap="innerHTML" hx-get="/components/content.html"></div>
         </div>
-        <div class="mt-30 flex flex-row" id="contet" hx-trigger="load" hx-swap="innerHTML" hx-get="/components/content.html"></div>
     </body>
 </html>
