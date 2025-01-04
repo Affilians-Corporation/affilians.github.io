@@ -2,11 +2,11 @@
   "questoes":[
     {
       "dificuldade": 0,
-      "componentes": [{"tipo": 0, "uri": "01/simples.txt"}]
+      "componentes": [{"tipo": 0, "uri": "simples.txt"}]
     },
     {
       "dificuldade": 1,
-      "componentes": [{"tipo": 1, "uri": "02/rico.txt"}]
+      "componentes": [{"tipo": 1, "uri": "rico.txt"}]
     }
   ]
 }
