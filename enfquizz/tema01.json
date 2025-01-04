@@ -1,12 +1,18 @@
 {
-  "questoes":[
+  "temas":[
     {
-      "dificuldade": 0,
-      "componentes": [{"tipo": 0, "uri": "simples.txt"}]
-    },
-    {
-      "dificuldade": 1,
-      "componentes": [{"tipo": 1, "uri": "rico.txt"}]
+      "facil": [
+        {
+          "dificuldade": 0,
+          "componentes": [{"tipo": 0, "uri": "simples.txt"}]
+        },
+        {
+          "dificuldade": 1,
+          "componentes": [{"tipo": 1, "uri": "rico.txt"}]
+        }
+      ],
+      "medio": [],
+      "dificil": []
     }
   ]
 }
