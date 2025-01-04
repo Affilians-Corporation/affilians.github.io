@@ -4,11 +4,11 @@
       "facil": [
         {
           "dificuldade": 0,
-          "componentes": [{"tipo": 0, "uri": "simples.txt"}]
+          "componentes": [0, 2, 4]
         },
         {
           "dificuldade": 1,
-          "componentes": [{"tipo": 1, "uri": "rico.txt"}]
+          "componentes": [1, 3, 2]
         }
       ],
       "medio": [],
