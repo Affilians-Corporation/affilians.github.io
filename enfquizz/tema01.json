@@ -1,1 +1,58 @@
-{"subtemas":[{"facil":[{"componentes":[0,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]}],"media":[{"componentes":[0,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]}],"dificil":[{"componentes":[0,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]}],"quantidades":[5,3,2]},{"facil":[{"componentes":[0,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]}],"media":[{"componentes":[0,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]}],"dificil":[{"componentes":[0,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]},{"componentes":[1,2]}],"quantidades":[1,5,3]}]}
+{
+  "quantidade_questoes": 30,
+  "quantidade_subtemas": 3,
+  "questoes": [
+    3,
+    3,
+    3,
+    3,
+    5,
+    3,
+    7,
+    7,
+    7,
+    3,
+    7,
+    5,
+    3,
+    3,
+    3,
+    3,
+    5,
+    5,
+    7,
+    7,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "subtemas": [
+    10,
+    15,
+    30
+  ],
+  "proporcoes": [
+    [
+      3,
+      5,
+      2
+    ],
+    [
+      5,
+      5,
+      5
+    ],
+    [
+      10,
+      15,
+      5
+    ]
+  ]
+}
