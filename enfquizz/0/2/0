@@ -1,0 +1,9 @@
+AlternativasAsset (
+  correta: 3,
+  alternativas: [
+    "Boa circulação sanguínea, infecções, diabetes e desnutrição",
+    "Infecções, diabetes, hipertensão e tecido de granulação",
+    "Diabetes, idade, limpeza frequente e má circulação sanguínea",
+    "Desnutrição, infecção, consumo de álcool e má circulação sanguínea"
+  ]
+)

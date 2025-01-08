@@ -1,0 +1,7 @@
+AlternativasAsset (
+  correta: 1,
+  alternativas: [
+    "Esta afirmação está correta",
+    "Esta afirmação está incorreta"
+  ]
+)

@@ -1,0 +1,9 @@
+AlternativasAsset (
+  correta: 0
+  alternativas: [
+    "Feridas de difícil cicatrização, também conhecidas como feridas crônicas, são aquelas que não seguem o processo natural de reparação 
+    tecidual, levando mais de três meses para cicatrizar.",
+    "São feridas causadas por procedimentos cirúrgicos. Fatores como má circulação e infecção contribuem para dificultar a cicatrização.",
+    "Tem como característica a lenta regeneração de tecido, presença de epitelização e geralmente ocorre fechamento por primeira intenção."
+  ]
+)

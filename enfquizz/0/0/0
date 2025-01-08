@@ -1,0 +1,9 @@
+AlternativasAsset (
+  correta: 0,
+  alternativas: [
+    "Uma ferida aguda é uma lesão que ocorre de forma súbita e cuja cicatrização acentece de maneira natural, seguindo o processo normal de reparação tecidual",
+    "Ferida aguda é uma lesão que ocorre de forma súbita, cuja cicatrização pode afetar a circulação e reparação tecidual.",
+    "A ferida aguda ocorre de forma lenta e despercebida, sendo provocada por fatores exógenos.",
+    "É uma lesão que ocasiona a cicatrização de forma natural, levando mais de 4 meses para regenerar."
+  ]
+)
