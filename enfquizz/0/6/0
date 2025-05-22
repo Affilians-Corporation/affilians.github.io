@@ -1,9 +1,0 @@
-AlternativasAsset (
-  correta: 0,
-  alternativas: [
-    "Sim, a nutrição adequada fornece os nutrientes essenciais para a síntese de colágeno e outras proteínas necessárias para a cicatrização",
-    "Não, uma boa nutrição não tem impacte durante o processo de cicatrização",
-    "Sim, a oxigenação é crucial para a função celular e a produção de hormônios dificutadores da regeneração celular",
-    "Não, pois os fatores que influenciam o reparo tecidual não dependem da oxigenação e nutrição"
-  ]
-)
